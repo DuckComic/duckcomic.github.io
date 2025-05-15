@@ -1,0 +1,178 @@
+body{
+    background-color: #F4EEFF;
+    color: black;
+}
+ 
+.container{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+ .lightpurple{
+     background-color: #DCD6F7;
+     padding: 20px;
+}
+.purple{
+     background-color: #A6B1E1;
+     padding: 20px;
+ }
+.navy{
+    background-color: #424874;
+    padding: 20px;
+}
+.heading{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    font-size: 35px;
+}
+#mypage{
+    border: 1px solid #424874;
+}
+#banner{
+    border: 1px solid #424874;
+}
+#logo{
+    border: 20px;
+}
+#topnav{
+    height: 45px;
+    border: 1px solid #424874;
+}
+#topnav ul li{
+    text-decoration: none;
+    display: inline;
+}
+#contentarea{
+    height: auto;
+
+}
+#topnav a:link{
+    text-decoration: none;
+    color: #424874;
+    
+}
+#topnav a:visited{
+    color: #424874;
+}
+#topnav a:hover{
+    color: #424874;
+}
+
+.company_profile{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    /* margin: 10px; */
+    border: #000 solid 1px;
+}
+
+.company_trainees{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    /* margin: 10px; */
+    border: #000 solid 1px;
+    margin-top: 10px;
+}
+
+.company_trainees ul li{
+    display: inline;
+    margin-right: 85px;
+}
+
+.company_trainees img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.company_trainees h1{
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.job_spec{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    /* margin: 10px; */
+    border: #000 solid 1px;
+    margin-top: 10px;
+}
+
+.application_form{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    /* margin: 10px; */
+    border: #000 solid 1px;
+    margin-top: 10px;
+}
+
+.our_courses{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* margin: 10px; */
+    border: #000 solid 1px;
+    margin-top: 10px;
+}
+
+.our_courses dd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centers them horizontally */
+    gap: 20px; /* spacing between boxes */
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%; /* responsive */
+  }
+  
+.our_courses dl {
+   width: 140px;
+   height: 150px;
+   padding: 20px;
+   border: #000 solid 1px;
+   border-radius: 8px;
+   background-color: #DCD6F7;
+   text-align: center;
+   box-sizing: border-box;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0; /* remove weird browser default spacing */
+   font-weight: bold; 
+   margin-bottom: 10px;
+ }
+  
+
+.our_courses p{
+    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-left: 35px;
+    /* font-size: 400; */
+}
+
+.greg{
+
+}
+
+.kamil{
+
+}
+
+.gabe{
+
+}
+
+.simon{
+
+}
+
+.declan{
+
+}
+
+/* https://colorhunt.co/palette/f4eeffdcd6f7a6b1e1424874 */

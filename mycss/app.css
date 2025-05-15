@@ -1,0 +1,32 @@
+/*https://colorhunt.co/palette/09122c872341be3144e17564 */
+
+body{
+   background-color: #222831;
+   font-family: cursive;
+   color: #EEEEEE;}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grey-section{
+    background-color: #00ADB5;
+    padding: 20px;
+}
+.blue-section{
+    background-color: #393E46;
+    padding: 20px;
+}
+.heading1{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/* canvas{
+    border: 1px solid #EEEEEE;
+} */
+
+
