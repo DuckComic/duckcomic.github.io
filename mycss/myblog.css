@@ -8,7 +8,7 @@ body{
      flex-direction: column;
      gap: 10px;
 }
- .lightpurple{
+.lightpurple{
      background-color: #DCD6F7;
      padding: 20px;
      height: auto;
@@ -16,7 +16,7 @@ body{
 .purple{
      background-color: #A6B1E1;
      padding: 20px;
- }
+}
 .navy{
     background-color: #424874;
     padding: 20px;
@@ -47,12 +47,10 @@ body{
 }
 #contentarea{
     height: auto;
-
 }
 #topnav a:link{
     text-decoration: none;
     color: #424874;
-    
 }
 #topnav a:visited{
     color: #424874;
@@ -65,7 +63,6 @@ body{
     width: 100%;
     height: 250px;
     border-radius: 8px;
-    /* margin: 10px; */
     border: #000 solid 1px;
 }
 
@@ -73,7 +70,6 @@ body{
     width: 100%;
     height: 250px;
     border-radius: 8px;
-    /* margin: 10px; */
     border: #000 solid 1px;
     margin-top: 10px;
 }
@@ -98,7 +94,6 @@ body{
     width: 100%;
     height: 250px;
     border-radius: 8px;
-    /* margin: 10px; */
     border: #000 solid 1px;
     margin-top: 10px;
 }
@@ -107,7 +102,6 @@ body{
     width: 100%;
     height: 250px;
     border-radius: 8px;
-    /* margin: 10px; */
     border: #000 solid 1px;
     margin-top: 10px;
 }
@@ -116,7 +110,6 @@ body{
     width: 100%;
     height: auto;
     border-radius: 8px;
-    /* margin: 10px; */
     border: #000 solid 1px;
     margin-top: 10px;
 }
@@ -124,12 +117,12 @@ body{
 .our_courses dd {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* centers them horizontally */
-    gap: 20px; /* spacing between boxes */
+    justify-content: center;
+    gap: 20px;
     padding: 0;
     margin: 0 auto;
-    max-width: 100%; /* responsive */
-  }
+    max-width: 100%;
+}
   
 .our_courses dl {
    width: 140px;
@@ -143,37 +136,63 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
-   margin: 0; /* remove weird browser default spacing */
-   font-weight: bold; 
+   margin: 0;
+   font-weight: bold;
    margin-bottom: 10px;
- }
+}
   
-
 .our_courses p{
     margin-bottom: 35px;
     margin-top: 35px;
     margin-left: 35px;
-    /* font-size: 400; */
 }
 
-.greg{
-
-}
-
-.kamil{
-
-}
-
-.gabe{
-
-}
-
-.simon{
-
-}
-
-.declan{
-
-}
+/* Empty personal ID classes */
+.greg{}
+.kamil{}
+.gabe{}
+.simon{}
+.declan{}
 
 /* https://colorhunt.co/palette/f4eeffdcd6f7a6b1e1424874 */
+
+/* Dropdown styles */
+#topnav ul {
+  position: relative;
+}
+
+#topnav .dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+#topnav .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #DCD6F7;
+  min-width: 160px;
+  z-index: 999;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #424874;
+  border-radius: 5px;
+}
+
+#topnav .dropdown-menu li {
+  display: block;
+  padding: 10px;
+}
+
+#topnav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#topnav .dropdown-menu a {
+  color: #424874;
+  text-decoration: none;
+}
+
+#topnav .dropdown-menu a:hover {
+  background-color: #A6B1E1;
+}
